@@ -7,3 +7,9 @@ node_js:
 branches:
   only:
     - master
+
+deploy:
+  provider: heroku
+  app: tutorialcontinteg
+  api_key:
+    secure: 63a82e6f-936c-469a-8bc8-f391f3a33969
